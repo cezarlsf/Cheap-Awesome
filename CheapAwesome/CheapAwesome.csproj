@@ -4,5 +4,12 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CheapAwesome.Adapters.DataAcess\CheapAwesome.Adapters.DataAcess.csproj" />
+    <ProjectReference Include="..\CheapAwesome.Adapters.Web\CheapAwesome.Adapters.Web.csproj" />
+    <ProjectReference Include="..\CheapAwesome.Ports.Web\CheapAwesome.Ports.Web.csproj" />
+    <ProjectReference Include="..\CheapAwesomeDomain\CheapAwesome.Domain.csproj" />
+  </ItemGroup>
+
 
 </Project>
